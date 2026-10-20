@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Plain-English UK buyer's guides to power banks, smart plugs and desk setups.">
+<title>Sorted Kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: shelf-tag aesthetic — narrow reading column, product picks as price-tag cards with a punched hole */
+:root{
+  --bg:#f3f5f8; --paper:#ffffff; --ink:#14213a; --muted:#56627a; --line:#d6dce6;
+  --accent:#1d4ed8; --tag:#ffd23f; --tag-ink:#14213a; --ok:#0f7a4f;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Instrument Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0d1424; --paper:#151e33; --ink:#e7ecf5; --muted:#9aa6bd; --line:#27324a;
+  --accent:#7aa2ff; --tag:#f5c83a; --tag-ink:#14213a; --ok:#4fd39a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0d1424; --paper:#151e33; --ink:#e7ecf5; --muted:#9aa6bd; --line:#27324a;
+  --accent:#7aa2ff; --tag:#f5c83a; --tag-ink:#14213a; --ok:#4fd39a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:12px;flex-wrap:wrap}
+.logo{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:-.02em;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px}
+.logo i{display:inline-block;width:14px;height:14px;background:var(--tag);border-radius:3px;transform:rotate(45deg)}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{font-size:14px;font-weight:500;color:var(--muted);text-decoration:none;padding:6px 10px;border-radius:6px}
+nav a[aria-current="page"]{color:var(--ink);background:var(--bg)}
+.disc{font-size:13px;color:var(--muted);background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-block:20px}
+.disc b{color:var(--ink)}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;letter-spacing:-.02em;line-height:1.15}
+h1{font-size:clamp(30px,6vw,46px);font-weight:800;margin:28px 0 12px}
+h2{font-size:24px;font-weight:800;margin:36px 0 10px}
+h3{font-size:19px;font-weight:600;margin:0}
+.lede{font-size:18px;color:var(--muted);max-width:60ch;margin:0}
+p,li{max-width:65ch}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.guides{display:grid;gap:12px;margin-block:24px 40px}
+.guide{display:grid;grid-template-columns:1fr auto;gap:6px 16px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:16px 18px;text-decoration:none;color:var(--ink)}
+.guide:hover{border-color:var(--accent)}
+.guide p{grid-column:1/-1;margin:0;color:var(--muted);font-size:15px}
+.guide .go{font-family:var(--mono);font-size:13px;color:var(--accent)}
+.specs{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.spec{font-family:var(--mono);font-size:12px;border:1px solid var(--line);border-radius:4px;padding:2px 7px;color:var(--muted)}
+.check{list-style:none;padding:0;display:grid;gap:8px}
+.check li{padding-left:26px;position:relative}
+.check li::before{content:"";position:absolute;left:4px;top:.55em;width:10px;height:6px;border-left:2px solid var(--ok);border-bottom:2px solid var(--ok);transform:rotate(-45deg)}
+.picks{display:grid;gap:14px;margin-block:16px}
+.pick{position:relative;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:18px 18px 16px 30px;min-width:0}
+.pick::before{content:"";position:absolute;left:11px;top:22px;width:9px;height:9px;border-radius:50%;background:var(--bg);border:1px solid var(--line)}
+.pick .who{display:inline-block;font-family:var(--mono);font-size:12px;font-weight:500;background:var(--tag);color:var(--tag-ink);padding:2px 8px;border-radius:3px;margin-bottom:8px}
+.pick p{margin:6px 0 12px;color:var(--muted);font-size:15px}
+.btns{display:flex;flex-wrap:wrap;gap:8px}
+.btn{font:600 14px var(--body);text-decoration:none;padding:9px 14px;border-radius:7px;border:1px solid var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);color:var(--paper)}
+.view[hidden]{display:none}
+footer{border-top:1px solid var(--line);margin-top:56px;padding-block:24px 40px;font-size:13px;color:var(--muted)}
+footer .wrap{display:grid;gap:6px}
+@media (prefers-reduced-motion:no-preference){.guide,.btn{transition:border-color .15s,background .15s}}
+</style>
+<style>body{margin:0}</style>
+</head>
+<body>
+
+
+<header><div class="wrap">
+  <a class="logo" href="#home"><i aria-hidden="true"></i>Sorted Kit</a>
+  <nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#power-banks">Power banks</a>
+    <a href="#smart-plugs">Smart plugs</a>
+    <a href="#desk-setup">Desk setup</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+
+<!-- HOME -->
+<section class="view" id="v-home">
+  <p class="eyebrow" style="margin-top:32px">UK buyer's guides · updated Oct 2026</p>
+  <h1>Buy the right gadget the first time.</h1>
+  <p class="lede">Short, plain-English guides to everyday tech for UK homes. We explain which specs matter, which ones are marketing, and what to pick for your budget.</p>
+  <div class="disc"><b>Ad</b> · Some links on this site are affiliate links. If you buy through them we may earn a commission, at no extra cost to you. As an Amazon Associate we earn from qualifying purchases.</div>
+  <div class="guides">
+    <a class="guide" href="#power-banks"><h3>Power banks that actually charge your laptop</h3><span class="go">Read →</span><p>mAh vs Wh, the 100Wh flight rule, and why the watt number matters more than the capacity.</p></a>
+    <a class="guide" href="#smart-plugs"><h3>Smart plugs that show what your appliances cost</h3><span class="go">Read →</span><p>Energy monitoring, Matter support and the UK-specific things to check before buying.</p></a>
+    <a class="guide" href="#desk-setup"><h3>A better desk setup for under £100</h3><span class="go">Read →</span><p>Laptop stand, USB-C hub, lamp and cable tidy. The four buys that change how a desk feels.</p></a>
+  </div>
+</section>
+
+<!-- POWER BANKS -->
+<article class="view" id="v-power-banks" hidden>
+  <p class="eyebrow" style="margin-top:32px">Guide · Power banks</p>
+  <h1>Power banks that actually charge your laptop</h1>
+  <p class="lede">Most people buy on the mAh figure. The number that decides whether a power bank can charge a laptop is its output in watts.</p>
+  <div class="disc"><b>Ad</b> · Contains affiliate links. As an Amazon Associate we earn from qualifying purchases.</div>
+
+  <h2>What to check</h2>
+  <ul class="check">
+    <li><b>Output in watts (W).</b> Phones fast-charge at 20–30W. Most thin laptops need 45–65W over USB-C Power Delivery (PD).</li>
+    <li><b>Watt-hours (Wh), not just mAh.</b> Wh is the real energy figure. Airlines usually allow power banks up to 100Wh in hand luggage without approval, and never in the hold.</li>
+    <li><b>USB-C in and out.</b> Recharging the bank itself at 30W+ saves hours.</li>
+    <li><b>Ports you will use.</b> Two USB-C ports lets you charge a laptop and phone together.</li>
+  </ul>
+  <div class="specs"><span class="spec">10,000mAh ≈ 37Wh</span><span class="spec">20,000mAh ≈ 74Wh</span><span class="spec">limit 100Wh cabin</span></div>
+
+  <h2>What to buy</h2>
+  <div class="picks">
+    <div class="pick"><span class="who">For phones</span><h3>Slim 10,000mAh with 20W+ USB-C</h3><p>Pocket size, one to two full phone charges. Anker and Ugreen both make reliable versions.</p>
+      <div class="btns"><a class="btn primary" data-amz="10000mAh power bank 20W USB-C">Check price on Amazon</a><a class="btn" data-ebay="10000mAh power bank 20W USB-C">eBay</a></div></div>
+    <div class="pick"><span class="who">For laptops</span><h3>20,000mAh with 65W USB-C PD</h3><p>Enough to top up a MacBook Air or similar ultrabook once. Check the 65W figure applies to a single port.</p>
+      <div class="btns"><a class="btn primary" data-amz="20000mAh power bank 65W USB-C PD laptop">Check price on Amazon</a><a class="btn" data-ebay="20000mAh 65W power bank laptop">eBay</a></div></div>
+    <div class="pick"><span class="who">For iPhone</span><h3>Magnetic (Qi2) power bank</h3><p>Snaps to the back of an iPhone 12 or later. Look for Qi2 certification for 15W wireless speed.</p>
+      <div class="btns"><a class="btn primary" data-amz="Qi2 magnetic power bank">Check price on Amazon</a><a class="btn" data-ebay="Qi2 magnetic power bank">eBay</a></div></div>
+  </div>
+</article>
+
+<!-- SMART PLUGS -->
+<article class="view" id="v-smart-plugs" hidden>
+  <p class="eyebrow" style="margin-top:32px">Guide · Smart home</p>
+  <h1>Smart plugs that show what your appliances cost</h1>
+  <p class="lede">A smart plug with energy monitoring tells you exactly how many kWh your tumble dryer, gaming PC or dehumidifier uses. That is where the savings start.</p>
+  <div class="disc"><b>Ad</b> · Contains affiliate links. As an Amazon Associate we earn from qualifying purchases.</div>
+
+  <h2>What to check</h2>
+  <ul class="check">
+    <li><b>Energy monitoring.</b> Not every smart plug has it. The listing should mention kWh or power usage tracking.</li>
+    <li><b>UK Type G, rated 13A.</b> Needed for heaters, kettles and dryers. Avoid plugs that only cover the next socket over.</li>
+    <li><b>Matter support.</b> Works with Alexa, Google Home and Apple Home, so you are not locked into one app.</li>
+    <li><b>No hub needed.</b> Wi-Fi plugs connect straight to your router.</li>
+  </ul>
+  <div class="specs"><span class="spec">kWh × your unit rate = cost</span><span class="spec">13A / 3,120W max</span></div>
+
+  <h2>What to buy</h2>
+  <div class="picks">
+    <div class="pick"><span class="who">Best value</span><h3>Multi-pack Wi-Fi plug with energy monitoring</h3><p>TP-Link Tapo and Meross sell 2- and 4-packs. Start with the three appliances you suspect most.</p>
+      <div class="btns"><a class="btn primary" data-amz="smart plug energy monitoring UK 4 pack">Check price on Amazon</a><a class="btn" data-ebay="smart plug energy monitoring UK">eBay</a></div></div>
+    <div class="pick"><span class="who">Works with everything</span><h3>Matter-certified smart plug</h3><p>Pick this if your home mixes Alexa, Google and Apple devices.</p>
+      <div class="btns"><a class="btn primary" data-amz="Matter smart plug UK energy monitoring">Check price on Amazon</a><a class="btn" data-ebay="Matter smart plug UK">eBay</a></div></div>
+  </div>
+</article>
+
+<!-- DESK -->
+<article class="view" id="v-desk-setup" hidden>
+  <p class="eyebrow" style="margin-top:32px">Guide · Work from home</p>
+  <h1>A better desk setup for under £100</h1>
+  <p class="lede">Four inexpensive buys fix most of what feels wrong about working on a laptop at a kitchen table.</p>
+  <div class="disc"><b>Ad</b> · Contains affiliate links. As an Amazon Associate we earn from qualifying purchases.</div>
+
+  <h2>The four buys</h2>
+  <div class="picks">
+    <div class="pick"><span class="who">Neck and posture</span><h3>Adjustable aluminium laptop stand</h3><p>Raises the screen to eye level. Pair it with a cheap external keyboard and mouse.</p>
+      <div class="btns"><a class="btn primary" data-amz="adjustable aluminium laptop stand">Check price on Amazon</a><a class="btn" data-ebay="aluminium laptop stand">eBay</a></div></div>
+    <div class="pick"><span class="who">One-cable desk</span><h3>USB-C hub with HDMI and 100W pass-through</h3><p>One cable to your laptop for monitor, charging and USB. Check it supports your monitor's resolution.</p>
+      <div class="btns"><a class="btn primary" data-amz="USB-C hub HDMI 4K 100W PD">Check price on Amazon</a><a class="btn" data-ebay="USB-C hub HDMI 100W PD">eBay</a></div></div>
+    <div class="pick"><span class="who">Eye strain</span><h3>LED desk lamp with adjustable colour temperature</h3><p>Warmer light in the evening, cooler for focus. A monitor light bar works well if desk space is tight.</p>
+      <div class="btns"><a class="btn primary" data-amz="LED desk lamp dimmable colour temperature">Check price on Amazon</a><a class="btn" data-ebay="LED desk lamp dimmable">eBay</a></div></div>
+    <div class="pick"><span class="who">Tidy</span><h3>Under-desk cable tray</h3><p>Hides the extension lead and chargers. Screw-free clamp versions suit rented flats.</p>
+      <div class="btns"><a class="btn primary" data-amz="under desk cable management tray">Check price on Amazon</a><a class="btn" data-ebay="under desk cable tray">eBay</a></div></div>
+  </div>
+</article>
+
+<!-- DISCLOSURE -->
+<article class="view" id="v-disclosure" hidden>
+  <h1>How we make money</h1>
+  <p>Sorted Kit earns commission from some links. When you click a retailer link and buy something, the retailer may pay us a small percentage. You pay the same price.</p>
+  <p>As an Amazon Associate we earn from qualifying purchases. We are also a member of the eBay Partner Network.</p>
+  <p>Guides are written from manufacturer specifications and published reviews. Where we have not tested a product ourselves, we do not say we have. Prices and availability change, so always check the listing before buying.</p>
+</article>
+</main>
+
+<footer><div class="wrap">
+  <span>© 2026 Sorted Kit · Preston, UK</span>
+  <span><a href="#disclosure">Affiliate disclosure</a></span>
+</div></footer>
+
+<script>
+/* ===== Put your affiliate IDs here ===== */
+const AMAZON_TAG = "YOURTAG-21";      // Amazon Associates UK tracking ID
+const EBAY_CAMPID = "YOURCAMPID";     // eBay Partner Network campaign ID
+
+document.querySelectorAll("[data-amz]").forEach(a=>{
+  a.href="https://www.amazon.co.uk/s?k="+encodeURIComponent(a.dataset.amz)+"&tag="+encodeURIComponent(AMAZON_TAG);
+  a.rel="sponsored nofollow noopener"; a.target="_blank";
+});
+document.querySelectorAll("[data-ebay]").forEach(a=>{
+  a.href="https://www.ebay.co.uk/sch/i.html?_nkw="+encodeURIComponent(a.dataset.ebay)+
+    "&mkcid=1&mkrid=710-53481-19255-0&siteid=3&campid="+encodeURIComponent(EBAY_CAMPID)+"&toolid=10001&mkevt=1";
+  a.rel="sponsored nofollow noopener"; a.target="_blank";
+});
+const views=["home","power-banks","smart-plugs","desk-setup","disclosure"];
+function show(){
+  const h=(location.hash||"#home").slice(1); const v=views.includes(h)?h:"home";
+  views.forEach(x=>{document.getElementById("v-"+x).hidden=(x!==v)});
+  document.querySelectorAll("#nav a").forEach(a=>a.toggleAttribute("aria-current",a.getAttribute("href")==="#"+v));
+  document.querySelectorAll("#nav a[aria-current]").forEach(a=>a.setAttribute("aria-current","page"));
+  window.scrollTo(0,0);
+}
+addEventListener("hashchange",show); show();
+</script>
+
+</body>
+</html>
