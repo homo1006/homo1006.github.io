@@ -186,7 +186,7 @@ footer .wrap{display:grid;gap:6px}
 <script>
 /* ===== Put your affiliate IDs here ===== */
 const AMAZON_TAG = "sortedkit-21";      // Amazon Associates UK tracking ID
-const EBAY_CAMPID = "YOURCAMPID";     // eBay Partner Network campaign ID
+const EBAY_CAMPID = "5339227887";     // eBay Partner Network campaign ID
 
 document.querySelectorAll("[data-amz]").forEach(a=>{
   a.href="https://www.amazon.co.uk/s?k="+encodeURIComponent(a.dataset.amz)+"&tag="+encodeURIComponent(AMAZON_TAG);
@@ -194,7 +194,7 @@ document.querySelectorAll("[data-amz]").forEach(a=>{
 });
 document.querySelectorAll("[data-ebay]").forEach(a=>{
   a.href="https://www.ebay.co.uk/sch/i.html?_nkw="+encodeURIComponent(a.dataset.ebay)+
-    "&mkcid=1&mkrid=710-53481-19255-0&siteid=3&campid="+encodeURIComponent(EBAY_CAMPID)+"&toolid=10001&mkevt=1";
+    "&mkcid=1&mkrid=710-53481-19255-0&siteid=3&campid="+encodeURIComponent(EBAY_CAMPID)+"&customid=sortedkituk&toolid=10001&mkevt=1";
   a.rel="sponsored nofollow noopener"; a.target="_blank";
 });
 const views=["home","power-banks","smart-plugs","desk-setup","disclosure"];
