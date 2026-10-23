@@ -1,0 +1,78 @@
+SORTED KIT — Threads posts (14 posts, 1–2 per day)
+Rules:
+- Threads is text-first. Post these as plain text; images are optional.
+- Any post that recommends products or contains the site link starts with "Ad". Pure tips with no link don't need it.
+- Reply to every comment in the first hour. That is what Threads pushes.
+- Spend 10 minutes a day replying to other UK tech / WFH / money-saving threads. That is where followers come from.
+
+=== 1 (intro, pin this) ===
+New account. Plain-English guides to gadgets for UK homes.
+Power banks, smart plugs, desk setups. Which specs matter, which are marketing.
+What should I cover next?
+
+=== 2 ===
+Hot take: mAh is the most misleading number on a power bank box.
+The number that decides if it charges your laptop is watts. Look for 65W USB-C PD.
+
+=== 3 ===
+Flying this winter? Power banks go in hand luggage only.
+Airlines usually allow up to 100Wh without approval. A 20,000mAh bank is about 74Wh, so you're fine.
+
+=== 4 ===
+Quick maths for any power bank:
+mAh × 3.7 ÷ 1000 = Wh
+10,000mAh ≈ 37Wh
+20,000mAh ≈ 74Wh
+27,000mAh ≈ 100Wh (the airline limit)
+
+=== 5 ===
+Ad. Three power banks for three jobs:
+Phone → slim 10,000mAh, 20W
+Laptop → 20,000mAh, 65W
+iPhone → Qi2 magnetic
+Full guide: https://homo1006.github.io/#power-banks
+
+=== 6 ===
+What's the one appliance you think is secretly costing you the most on your energy bill?
+Mine was the dehumidifier.
+
+=== 7 ===
+How to find out what any appliance costs to run:
+1. Plug it into an energy-monitoring smart plug
+2. Read the kWh after a week
+3. Multiply by the unit rate on your bill
+That's it. No guessing.
+
+=== 8 ===
+Before buying a smart plug for a heater or kettle: check it's rated for a full 13A.
+Some cheap ones are rated lower and run hot.
+
+=== 9 ===
+Ad. Mixed house of Alexa, Google and iPhones?
+Buy Matter-certified smart plugs. They work with all three, so you're not locked into one app.
+Guide: https://homo1006.github.io/#smart-plugs
+
+=== 10 ===
+Working from the sofa or kitchen table? Be honest, how's your neck?
+
+=== 11 ===
+The cheapest WFH upgrade isn't a new chair.
+It's a laptop stand plus any £10 keyboard. Screen at eye level, neck stops hurting.
+
+=== 12 ===
+One-cable desk setup:
+A USB-C hub with HDMI and 100W pass-through.
+Monitor, charger and USB all through one plug into your laptop.
+Check it supports your monitor's resolution first.
+
+=== 13 ===
+Ad. A better desk for under £100:
+Laptop stand
+USB-C hub
+Dimmable LED lamp
+Under-desk cable tray
+Full list: https://homo1006.github.io/#desk-setup
+
+=== 14 ===
+What gadget did you buy that turned out to be a waste of money?
+Collecting answers for a "don't buy this" guide.

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "sk-01",
+    "post_date": "2026-10-23",
+    "image_url": "https://homo1006.github.io/posts/img/sk-01.png",
+    "caption": "#ad Buying a power bank for your laptop? Ignore the mAh. Check the watts. Most thin laptops need 45–65W over USB-C PD. Full guide: link in bio.\n#powerbank #techtips #ukdeals #laptop #gadgetsuk",
+    "status": "queued"
+  },
+  {
+    "id": "sk-02",
+    "post_date": "2026-10-24",
+    "image_url": "https://homo1006.github.io/posts/img/sk-02.png",
+    "caption": "#ad Flying soon? Power banks go in hand luggage only, and airlines usually cap them at 100Wh without approval. A 20,000mAh bank is about 74Wh, so you're fine. Full guide: link in bio.\n#traveltips #powerbank #travelhacks #uktravel",
+    "status": "queued"
+  },
+  {
+    "id": "sk-03",
+    "post_date": "2026-10-25",
+    "image_url": "https://homo1006.github.io/posts/img/sk-03.png",
+    "caption": "#ad Three power banks for three jobs. Phone: slim 10,000mAh with 20W. Laptop: 20,000mAh with 65W. iPhone: Qi2 magnetic. Picks in our guide, link in bio.\n#powerbank #iphone #techuk #gadgets",
+    "status": "queued"
+  },
+  {
+    "id": "sk-04",
+    "post_date": "2026-10-26",
+    "image_url": "https://homo1006.github.io/posts/img/sk-04.png",
+    "caption": "#ad Want to know what your tumble dryer actually costs to run? An energy-monitoring smart plug shows the kWh. Multiply by your unit rate on your energy bill. Done. Link in bio.\n#energybills #costofliving #smarthome #moneysavinguk",
+    "status": "queued"
+  },
+  {
+    "id": "sk-05",
+    "post_date": "2026-10-27",
+    "image_url": "https://homo1006.github.io/posts/img/sk-05.png",
+    "caption": "#ad Before you buy a smart plug for a heater or kettle, check it's rated for a full 13A. Our checklist is in the guide, link in bio.\n#smartplug #smarthomeuk #homehacks",
+    "status": "queued"
+  },
+  {
+    "id": "sk-06",
+    "post_date": "2026-10-28",
+    "image_url": "https://homo1006.github.io/posts/img/sk-06.png",
+    "caption": "#ad Mixed household of Alexa, Google and iPhones? Matter-certified smart plugs work with all three. Guide in bio.\n#matter #alexa #googlehome #applehome #smarthome",
+    "status": "queued"
+  },
+  {
+    "id": "sk-07",
+    "post_date": "2026-10-29",
+    "image_url": "https://homo1006.github.io/posts/img/sk-07.png",
+    "caption": "#ad Working off a laptop on the sofa? Raise the screen to eye level with a laptop stand and add any external keyboard. Your neck will notice by Friday. Link in bio.\n#wfh #desksetup #homeoffice #studentlife",
+    "status": "queued"
+  },
+  {
+    "id": "sk-08",
+    "post_date": "2026-10-30",
+    "image_url": "https://homo1006.github.io/posts/img/sk-08.png",
+    "caption": "#ad One USB-C cable for monitor, charging and USB. Get a hub with HDMI and 100W pass-through. Check it supports your monitor's resolution first. Link in bio.\n#desksetup #usbc #homeoffice #techtips",
+    "status": "queued"
+  },
+  {
+    "id": "sk-09",
+    "post_date": "2026-10-31",
+    "image_url": "https://homo1006.github.io/posts/img/sk-09.png",
+    "caption": "#ad A better desk for under £100: laptop stand, USB-C hub, dimmable LED lamp, cable tray. Full list in bio.\n#desksetup #wfhsetup #studentdesk #homeofficeuk",
+    "status": "queued"
+  }
+]
