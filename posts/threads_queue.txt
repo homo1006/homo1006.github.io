@@ -1,4 +1,4 @@
-SORTED KIT — Threads posts (14 posts, 1–2 per day)
+SORTED KIT — Threads posts (21 posts, 1–2 per day)
 Rules:
 - Threads is text-first. Post these as plain text; images are optional.
 - Any post that recommends products or contains the site link starts with "Ad". Pure tips with no link don't need it.
@@ -76,3 +76,42 @@ Full list: https://homo1006.github.io/#desk-setup
 === 14 ===
 What gadget did you buy that turned out to be a waste of money?
 Collecting answers for a "don't buy this" guide.
+
+=== 15 ===
+The energy price cap went up 4% on 1 October.
+What's the one thing you're doing differently to keep the heating bill down this winter?
+
+=== 16 ===
+Ad. Heat yourself, not the house.
+Which? puts a heated throw at about 2p–3p an hour to run. An electric heater: 8p–76p.
+Get one with an auto-off timer.
+Guide: https://homo1006.github.io/#winter-warmth
+
+=== 17 ===
+Any appliance, quick cost check:
+watts ÷ 1000 × hours × your unit rate
+Oct–Dec 2026 cap rate is about 26.32p/kWh.
+100W heated throw ≈ 2.6p an hour.
+
+=== 18 ===
+Ad. Buying a dehumidifier? Ignore the tank size.
+The number that matters is litres per day.
+Small flat, mild damp → 7–12L
+Bigger household → 14–16L
+Drying laundry indoors → 18L+
+Guide: https://homo1006.github.io/#winter-warmth
+
+=== 19 ===
+Damp in the garage or conservatory?
+Compressor dehumidifiers struggle in the cold. A desiccant model is the better fit there.
+
+=== 20 ===
+Be honest: do you dry clothes on the radiators all winter?
+And has it given you a condensation problem yet?
+
+=== 21 ===
+Ad. Smart radiator valves, before you buy:
+They swap onto existing TRVs (manual valves need a plumber)
+Most need the same brand's bridge
+Smaller savings in small homes
+Guide: https://homo1006.github.io/#winter-warmth
