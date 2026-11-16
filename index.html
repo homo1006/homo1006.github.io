@@ -63,6 +63,23 @@ p,li{max-width:65ch}
 .btn{font:600 14px var(--body);text-decoration:none;padding:9px 14px;border-radius:7px;border:1px solid var(--accent);color:var(--accent)}
 .btn.primary{background:var(--accent);color:var(--paper)}
 .view[hidden]{display:none}
+.ico{width:24px;height:24px;flex:none}
+.pick .pi{position:absolute;right:14px;top:14px;width:44px;height:44px;border-radius:10px;background:var(--bg);color:var(--accent);display:grid;place-items:center}
+.pick .pi .ico{width:26px;height:26px}
+.pick h3{padding-right:52px}
+.guide{grid-template-columns:auto 1fr auto}
+.guide .gi{width:44px;height:44px;border-radius:10px;background:var(--tag);color:var(--tag-ink);display:grid;place-items:center;grid-row:span 1}
+.guide p{grid-column:2/-1}
+.hero-ico{display:inline-grid;place-items:center;width:52px;height:52px;border-radius:12px;background:var(--tag);color:var(--tag-ink);margin-top:28px}
+.hero-ico .ico{width:30px;height:30px}
+.hero-ico + .eyebrow{margin-top:12px!important}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.fact{display:inline-flex;align-items:flex-start;gap:6px;font-size:13px;line-height:1.3;border-radius:6px;padding:5px 9px;max-width:100%}
+.fact .ico{width:16px;height:16px;margin-top:1px}
+.fact.award{background:color-mix(in srgb,var(--ok) 12%,transparent);color:var(--ok);font-weight:600}
+.fact.price{border:1px solid var(--line);color:var(--ink)}
+.fact.price b{font-family:var(--mono);font-size:14px}
+.fact a{color:inherit}
 footer{border-top:1px solid var(--line);margin-top:56px;padding-block:24px 40px;font-size:13px;color:var(--muted)}
 footer .wrap{display:grid;gap:6px}
 @media (prefers-reduced-motion:no-preference){.guide,.btn{transition:border-color .15s,background .15s}}
@@ -70,6 +87,7 @@ footer .wrap{display:grid;gap:6px}
 <style>body{margin:0}</style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-battery" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="16" height="10" rx="2"/><path d="M21 10v4M7 10v4M11 10v4"/></symbol><symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2.5" width="10" height="19" rx="2"/><path d="M11 18h2"/></symbol><symbol id="i-laptop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="10" rx="1.5"/><path d="M2.5 19h19l-2-4h-15z"/></symbol><symbol id="i-magnet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v9a6 6 0 0 0 12 0V3h-4v9a2 2 0 0 1-4 0V3z"/><path d="M6 7h4M14 7h4"/></symbol><symbol id="i-plug" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v5M15 2v5"/><path d="M6 7h12v4a6 6 0 0 1-12 0z"/><path d="M12 17v5"/></symbol><symbol id="i-matter" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="18" r="2.5"/><circle cx="19" cy="18" r="2.5"/><path d="M10.8 7.2 6.2 15.8M13.2 7.2l4.6 8.6M7.5 18h9"/></symbol><symbol id="i-desk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h18M5 10v10M19 10v10"/><path d="M8 10V6h8v4"/></symbol><symbol id="i-hub" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="16" height="8" rx="2"/><path d="M8 12h2M14 12h2M12 16v5"/></symbol><symbol id="i-lamp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21h8M9 21V11l6-6"/><path d="m13 3 6 6-3 3-6-6z"/><path d="M18 13l2 2"/></symbol><symbol id="i-tray" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h18v6H3z"/><path d="M6 14v3M18 14v3M7 11h10"/></symbol><symbol id="i-flame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 0 1-7-7c0-4 3-6 4-10 2 2 3 4 3 6 1-1 2-2 2-4 2 2 5 5 5 8a7 7 0 0 1-7 7z"/></symbol><symbol id="i-throw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11l-3 3H4z"/><path d="M4 9h16M4 13h16"/></symbol><symbol id="i-bed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18V7M3 13h18v5M21 13a3 3 0 0 0-3-3H10v3"/><circle cx="6.5" cy="10.5" r="1.5"/></symbol><symbol id="i-drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 7 6 11a6 6 0 0 1-12 0c0-4 6-11 6-11z"/><path d="M9.5 15a2.5 2.5 0 0 0 2.5 2.5"/></symbol><symbol id="i-airer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20 12 4l8 16M6 16h12M8 12h8"/></symbol><symbol id="i-radiator" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M7 6v12M11 6v12M15 6v12M19 18v3"/></symbol><symbol id="i-pan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h14v3a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5z"/><path d="M17 12h4M7 4c0 2 2 2 2 4M11 4c0 2 2 2 2 4"/></symbol><symbol id="i-fryer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="4"/><path d="M8 13h8v4H8zM9 7h6"/></symbol><symbol id="i-pot" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10h16v6a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M2 10h20M9 10V7h6v3"/></symbol><symbol id="i-gift" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="9" width="18" height="12" rx="1"/><path d="M3 13h18M12 9v12M12 9c-2-4-6-4-6-1.5S10 9 12 9zm0 0c2-4 6-4 6-1.5S14 9 12 9z"/></symbol><symbol id="i-bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 5 14h6l-1 8 8-12h-6z"/></symbol><symbol id="i-tag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3"/></symbol><symbol id="i-headphones" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="7" rx="1.5"/><rect x="17" y="14" width="4" height="7" rx="1.5"/></symbol><symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h12a2 2 0 0 1 2 2v14H6a2 2 0 0 1-2-2z"/><path d="M8 8h6M8 12h6M18 20h2V8"/></symbol><symbol id="i-bell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2.5" width="10" height="19" rx="3"/><circle cx="12" cy="8" r="2"/><circle cx="12" cy="16" r="1.5"/></symbol><symbol id="i-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h12l4-2v10l-4-2H3z"/><path d="M7 14v6M4 20h6"/></symbol><symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol><symbol id="i-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M8.5 14 7 22l5-3 5 3-1.5-8"/></symbol><symbol id="i-pound" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 6.5A3.5 3.5 0 0 0 9 7v10c0 1.5-1 3-3 3h12M6 12h8"/></symbol></svg>
 
 
 <header><div class="wrap">
@@ -95,18 +113,19 @@ footer .wrap{display:grid;gap:6px}
   <p class="lede">Short, plain-English guides to everyday tech for UK homes. We explain which specs matter, which ones are marketing, and what to pick for your budget.</p>
   <div class="disc"><b>Ad</b> · Some links on this site are affiliate links. If you buy through them we may earn a commission, at no extra cost to you. As an Amazon Associate we earn from qualifying purchases.</div>
   <div class="guides">
-    <a class="guide" href="#power-banks"><h3>Power banks that actually charge your laptop</h3><span class="go">Read →</span><p>mAh vs Wh, the 100Wh flight rule, and why the watt number matters more than the capacity.</p></a>
-    <a class="guide" href="#smart-plugs"><h3>Smart plugs that show what your appliances cost</h3><span class="go">Read →</span><p>Energy monitoring, Matter support and the UK-specific things to check before buying.</p></a>
-    <a class="guide" href="#desk-setup"><h3>A better desk setup for under £100</h3><span class="go">Read →</span><p>Laptop stand, USB-C hub, lamp and cable tidy. The four buys that change how a desk feels.</p></a>
-    <a class="guide" href="#winter-warmth"><h3>Stay warm and dry this winter for less</h3><span class="go">Read →</span><p>Heated throws, dehumidifiers, heated airers and smart radiator valves. What each costs to run and which specs matter.</p></a>
-    <a class="guide" href="#cheaper-cooking"><h3>Cook for less with an air fryer or slow cooker</h3><span class="go">Read →</span><p>Which size to buy for your household, which features earn their place, and what each costs to run against the oven.</p></a>
-    <a class="guide" href="#tech-gifts"><h3>Useful tech gifts under £100</h3><span class="go">Read →</span><p>Chargers, item trackers and noise-cancelling headphones, plus how to check a Black Friday deal is a real one.</p></a>
-    <a class="guide" href="#doorbells"><h3>Video doorbells and cameras without the hidden costs</h3><span class="go">Read →</span><p>Subscription or local storage, battery or wired, and the privacy rules if your camera sees past your front gate.</p></a>
+    <a class="guide" href="#power-banks"><span class="gi"><svg class="ico" aria-hidden="true"><use href="#i-battery"/></svg></span><h3>Power banks that actually charge your laptop</h3><span class="go">Read →</span><p>mAh vs Wh, the 100Wh flight rule, and why the watt number matters more than the capacity.</p></a>
+    <a class="guide" href="#smart-plugs"><span class="gi"><svg class="ico" aria-hidden="true"><use href="#i-plug"/></svg></span><h3>Smart plugs that show what your appliances cost</h3><span class="go">Read →</span><p>Energy monitoring, Matter support and the UK-specific things to check before buying.</p></a>
+    <a class="guide" href="#desk-setup"><span class="gi"><svg class="ico" aria-hidden="true"><use href="#i-desk"/></svg></span><h3>A better desk setup for under £100</h3><span class="go">Read →</span><p>Laptop stand, USB-C hub, lamp and cable tidy. The four buys that change how a desk feels.</p></a>
+    <a class="guide" href="#winter-warmth"><span class="gi"><svg class="ico" aria-hidden="true"><use href="#i-flame"/></svg></span><h3>Stay warm and dry this winter for less</h3><span class="go">Read →</span><p>Heated throws, dehumidifiers, heated airers and smart radiator valves. What each costs to run and which specs matter.</p></a>
+    <a class="guide" href="#cheaper-cooking"><span class="gi"><svg class="ico" aria-hidden="true"><use href="#i-pan"/></svg></span><h3>Cook for less with an air fryer or slow cooker</h3><span class="go">Read →</span><p>Which size to buy for your household, which features earn their place, and what each costs to run against the oven.</p></a>
+    <a class="guide" href="#tech-gifts"><span class="gi"><svg class="ico" aria-hidden="true"><use href="#i-gift"/></svg></span><h3>Useful tech gifts under £100</h3><span class="go">Read →</span><p>Chargers, item trackers and noise-cancelling headphones, plus how to check a Black Friday deal is a real one.</p></a>
+    <a class="guide" href="#doorbells"><span class="gi"><svg class="ico" aria-hidden="true"><use href="#i-bell"/></svg></span><h3>Video doorbells and cameras without the hidden costs</h3><span class="go">Read →</span><p>Subscription or local storage, battery or wired, and the privacy rules if your camera sees past your front gate.</p></a>
   </div>
 </section>
 
 <!-- POWER BANKS -->
 <article class="view" id="v-power-banks" hidden>
+  <span class="hero-ico"><svg class="ico" aria-hidden="true"><use href="#i-battery"/></svg></span>
   <p class="eyebrow" style="margin-top:32px">Guide · Power banks</p>
   <h1>Power banks that actually charge your laptop</h1>
   <p class="lede">Most people buy on the mAh figure. The number that decides whether a power bank can charge a laptop is its output in watts.</p>
@@ -123,17 +142,18 @@ footer .wrap{display:grid;gap:6px}
 
   <h2>What to buy</h2>
   <div class="picks">
-    <div class="pick"><span class="who">For phones</span><h3>Slim 10,000mAh with 20W+ USB-C</h3><p>Pocket size, one to two full phone charges. Anker and Ugreen both make reliable versions.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg></span><span class="who">For phones</span><h3>Slim 10,000mAh with 20W+ USB-C</h3><p>Pocket size, one to two full phone charges. Anker and Ugreen both make reliable versions.</p><div class="facts"><span class="fact price"><svg class="ico" aria-hidden="true"><use href="#i-pound"/></svg><span>Price to beat <b>£12.72</b> · INIU BI-B6, six-month low (<a href="https://www.which.co.uk/news/article/best-black-friday-smart-home-deals-ajokx0t8yyI2" target="_blank" rel="noopener">Which?</a>)</span></span></div>
       <div class="btns"><a class="btn primary" data-amz="10000mAh power bank 20W USB-C">Check price on Amazon</a><a class="btn" data-ebay="10000mAh power bank 20W USB-C">eBay</a></div></div>
-    <div class="pick"><span class="who">For laptops</span><h3>20,000mAh with 65W USB-C PD</h3><p>Enough to top up a MacBook Air or similar ultrabook once. Check the 65W figure applies to a single port.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-laptop"/></svg></span><span class="who">For laptops</span><h3>20,000mAh with 65W USB-C PD</h3><p>Enough to top up a MacBook Air or similar ultrabook once. Check the 65W figure applies to a single port.</p>
       <div class="btns"><a class="btn primary" data-amz="20000mAh power bank 65W USB-C PD laptop">Check price on Amazon</a><a class="btn" data-ebay="20000mAh 65W power bank laptop">eBay</a></div></div>
-    <div class="pick"><span class="who">For iPhone</span><h3>Magnetic (Qi2) power bank</h3><p>Snaps to the back of an iPhone 12 or later. Look for Qi2 certification for 15W wireless speed.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-magnet"/></svg></span><span class="who">For iPhone</span><h3>Magnetic (Qi2) power bank</h3><p>Snaps to the back of an iPhone 12 or later. Look for Qi2 certification for 15W wireless speed.</p>
       <div class="btns"><a class="btn primary" data-amz="Qi2 magnetic power bank">Check price on Amazon</a><a class="btn" data-ebay="Qi2 magnetic power bank">eBay</a></div></div>
   </div>
 </article>
 
 <!-- SMART PLUGS -->
 <article class="view" id="v-smart-plugs" hidden>
+  <span class="hero-ico"><svg class="ico" aria-hidden="true"><use href="#i-plug"/></svg></span>
   <p class="eyebrow" style="margin-top:32px">Guide · Smart home</p>
   <h1>Smart plugs that show what your appliances cost</h1>
   <p class="lede">A smart plug with energy monitoring tells you exactly how many kWh your tumble dryer, gaming PC or dehumidifier uses. That is where the savings start.</p>
@@ -150,15 +170,16 @@ footer .wrap{display:grid;gap:6px}
 
   <h2>What to buy</h2>
   <div class="picks">
-    <div class="pick"><span class="who">Best value</span><h3>Multi-pack Wi-Fi plug with energy monitoring</h3><p>TP-Link Tapo and Meross sell 2- and 4-packs. Start with the three appliances you suspect most.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-plug"/></svg></span><span class="who">Best value</span><h3>Multi-pack Wi-Fi plug with energy monitoring</h3><p>TP-Link Tapo and Meross sell 2- and 4-packs. Start with the three appliances you suspect most.</p><div class="facts"><span class="fact price"><svg class="ico" aria-hidden="true"><use href="#i-pound"/></svg><span>Price to beat <b>£14.29</b> · Tapo P110 two-pack, Black Friday 2025 (<a href="https://www.techradar.com/home/smart-plugs/take-control-of-your-energy-use-with-this-super-cheap-under-gbp15-gadget-on-black-friday" target="_blank" rel="noopener">TechRadar</a>)</span></span></div>
       <div class="btns"><a class="btn primary" data-amz="smart plug energy monitoring UK 4 pack">Check price on Amazon</a><a class="btn" data-ebay="smart plug energy monitoring UK">eBay</a></div></div>
-    <div class="pick"><span class="who">Works with everything</span><h3>Matter-certified smart plug</h3><p>Pick this if your home mixes Alexa, Google and Apple devices.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-matter"/></svg></span><span class="who">Works with everything</span><h3>Matter-certified smart plug</h3><p>Pick this if your home mixes Alexa, Google and Apple devices.</p>
       <div class="btns"><a class="btn primary" data-amz="Matter smart plug UK energy monitoring">Check price on Amazon</a><a class="btn" data-ebay="Matter smart plug UK">eBay</a></div></div>
   </div>
 </article>
 
 <!-- DESK -->
 <article class="view" id="v-desk-setup" hidden>
+  <span class="hero-ico"><svg class="ico" aria-hidden="true"><use href="#i-desk"/></svg></span>
   <p class="eyebrow" style="margin-top:32px">Guide · Work from home</p>
   <h1>A better desk setup for under £100</h1>
   <p class="lede">Four inexpensive buys fix most of what feels wrong about working on a laptop at a kitchen table.</p>
@@ -166,19 +187,20 @@ footer .wrap{display:grid;gap:6px}
 
   <h2>The four buys</h2>
   <div class="picks">
-    <div class="pick"><span class="who">Neck and posture</span><h3>Adjustable aluminium laptop stand</h3><p>Raises the screen to eye level. Pair it with a cheap external keyboard and mouse.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-laptop"/></svg></span><span class="who">Neck and posture</span><h3>Adjustable aluminium laptop stand</h3><p>Raises the screen to eye level. Pair it with a cheap external keyboard and mouse.</p>
       <div class="btns"><a class="btn primary" data-amz="adjustable aluminium laptop stand">Check price on Amazon</a><a class="btn" data-ebay="aluminium laptop stand">eBay</a></div></div>
-    <div class="pick"><span class="who">One-cable desk</span><h3>USB-C hub with HDMI and 100W pass-through</h3><p>One cable to your laptop for monitor, charging and USB. Check it supports your monitor's resolution.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-hub"/></svg></span><span class="who">One-cable desk</span><h3>USB-C hub with HDMI and 100W pass-through</h3><p>One cable to your laptop for monitor, charging and USB. Check it supports your monitor's resolution.</p>
       <div class="btns"><a class="btn primary" data-amz="USB-C hub HDMI 4K 100W PD">Check price on Amazon</a><a class="btn" data-ebay="USB-C hub HDMI 100W PD">eBay</a></div></div>
-    <div class="pick"><span class="who">Eye strain</span><h3>LED desk lamp with adjustable colour temperature</h3><p>Warmer light in the evening, cooler for focus. A monitor light bar works well if desk space is tight.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-lamp"/></svg></span><span class="who">Eye strain</span><h3>LED desk lamp with adjustable colour temperature</h3><p>Warmer light in the evening, cooler for focus. A monitor light bar works well if desk space is tight.</p>
       <div class="btns"><a class="btn primary" data-amz="LED desk lamp dimmable colour temperature">Check price on Amazon</a><a class="btn" data-ebay="LED desk lamp dimmable">eBay</a></div></div>
-    <div class="pick"><span class="who">Tidy</span><h3>Under-desk cable tray</h3><p>Hides the extension lead and chargers. Screw-free clamp versions suit rented flats.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-tray"/></svg></span><span class="who">Tidy</span><h3>Under-desk cable tray</h3><p>Hides the extension lead and chargers. Screw-free clamp versions suit rented flats.</p>
       <div class="btns"><a class="btn primary" data-amz="under desk cable management tray">Check price on Amazon</a><a class="btn" data-ebay="under desk cable tray">eBay</a></div></div>
   </div>
 </article>
 
 <!-- WINTER WARMTH -->
 <article class="view" id="v-winter-warmth" hidden>
+  <span class="hero-ico"><svg class="ico" aria-hidden="true"><use href="#i-flame"/></svg></span>
   <p class="eyebrow" style="margin-top:32px">Guide · Winter at home</p>
   <h1>Stay warm and dry this winter for less</h1>
   <p class="lede">The energy price cap went up 4% on 1 October 2026. Heating the person, drying the air and heating only the rooms you use are three cheap ways to fight back.</p>
@@ -197,21 +219,22 @@ footer .wrap{display:grid;gap:6px}
 
   <h2>What to buy</h2>
   <div class="picks">
-    <div class="pick"><span class="who">Warm the person</span><h3>Heated throw with a timer</h3><p>For the sofa or desk chair while the heating stays down. Look for an auto-off timer, several heat settings and a removable, washable control. Which? lists heated throws at roughly £25–£90.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-throw"/></svg></span><span class="who">Warm the person</span><h3>Heated throw with a timer</h3><p>For the sofa or desk chair while the heating stays down. Look for an auto-off timer, several heat settings and a removable, washable control. Which? lists heated throws at roughly £25–£90.</p><div class="facts"><span class="fact price"><svg class="ico" aria-hidden="true"><use href="#i-pound"/></svg><span>Price to beat <b>£47</b> · Dreamland Snuggle Up, six-month low (<a href="https://www.which.co.uk/news/article/best-black-friday-smart-home-deals-ajokx0t8yyI2" target="_blank" rel="noopener">Which?</a>)</span></span></div>
       <div class="btns"><a class="btn primary" data-amz="heated throw timer washable">Check price on Amazon</a><a class="btn" data-ebay="heated throw electric blanket">eBay</a></div></div>
-    <div class="pick"><span class="who">Warm the bed</span><h3>Electric underblanket with dual controls</h3><p>Dual controls let each side choose its own heat. Pick one with a timer, and check whether it is approved for overnight use before you leave it on.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-bed"/></svg></span><span class="who">Warm the bed</span><h3>Electric underblanket with dual controls</h3><p>Dual controls let each side choose its own heat. Pick one with a timer, and check whether it is approved for overnight use before you leave it on.</p><div class="facts"><span class="fact price"><svg class="ico" aria-hidden="true"><use href="#i-pound"/></svg><span>Price to beat <b>£43</b> · Russell Hobbs RHEDB8002, six-month low (<a href="https://www.which.co.uk/news/article/best-black-friday-smart-home-deals-ajokx0t8yyI2" target="_blank" rel="noopener">Which?</a>)</span></span></div>
       <div class="btns"><a class="btn primary" data-amz="electric underblanket double dual control timer">Check price on Amazon</a><a class="btn" data-ebay="electric underblanket dual control">eBay</a></div></div>
-    <div class="pick"><span class="who">Damp and condensation</span><h3>12L compressor dehumidifier with humidistat</h3><p>Right size for most flats and bedrooms with condensation. Which? found its Best Buys average about 7p an hour to run. Go 18L+ if you dry clothes indoors.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-drop"/></svg></span><span class="who">Damp and condensation</span><h3>12L compressor dehumidifier with humidistat</h3><p>Right size for most flats and bedrooms with condensation. Which? found its Best Buys average about 7p an hour to run. Go 18L+ if you dry clothes indoors.</p><div class="facts"><span class="fact price"><svg class="ico" aria-hidden="true"><use href="#i-pound"/></svg><span>Price to beat <b>£106</b> · Devola DV12L or Ecoair DC12 MK3 (<a href="https://www.which.co.uk/news/article/best-dehumidifier-deals-aCEmK0Z5Bvoo" target="_blank" rel="noopener">Which?</a>)</span></span></div>
       <div class="btns"><a class="btn primary" data-amz="12L dehumidifier humidistat laundry mode">Check price on Amazon</a><a class="btn" data-ebay="12L dehumidifier">eBay</a></div></div>
-    <div class="pick"><span class="who">No tumble dryer</span><h3>Heated clothes airer</h3><p>Which? found heated airers average about 8p an hour, and towers dried a small load faster than winged airers. They cost the same per hour full or half empty, so fill every bar, and open a window while it runs. Covers didn't speed up drying in Which?'s tests. Which? lists models from about £55 to £140. Already own a tumble dryer? Which? says that is likely to be faster and cheaper.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-airer"/></svg></span><span class="who">No tumble dryer</span><h3>Heated clothes airer</h3><p>Which? found heated airers average about 8p an hour, and towers dried a small load faster than winged airers. They cost the same per hour full or half empty, so fill every bar, and open a window while it runs. Covers didn't speed up drying in Which?'s tests. Which? lists models from about £55 to £140. Already own a tumble dryer? Which? says that is likely to be faster and cheaper.</p><div class="facts"><span class="fact price"><svg class="ico" aria-hidden="true"><use href="#i-pound"/></svg><span>Price to beat <b>£104</b> · Dry:Soon Mini three-tier, six-month low (<a href="https://www.which.co.uk/news/article/best-black-friday-smart-home-deals-ajokx0t8yyI2" target="_blank" rel="noopener">Which?</a>)</span></span></div>
       <div class="btns"><a class="btn primary" data-amz="heated clothes airer 3 tier">Check price on Amazon</a><a class="btn" data-ebay="heated clothes airer">eBay</a></div></div>
-    <div class="pick"><span class="who">Heat only the rooms you use</span><h3>Smart radiator valve starter kit</h3><p>Schedule each room separately and turn spare rooms down. Which? puts single valves at about £35–£80. Savings are smaller in small homes, or if you already switch the heating off when out.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-radiator"/></svg></span><span class="who">Heat only the rooms you use</span><h3>Smart radiator valve starter kit</h3><p>Schedule each room separately and turn spare rooms down. Which? puts single valves at about £35–£80. Savings are smaller in small homes, or if you already switch the heating off when out.</p>
       <div class="btns"><a class="btn primary" data-amz="smart radiator valve starter kit">Check price on Amazon</a><a class="btn" data-ebay="smart radiator thermostat valve">eBay</a></div></div>
   </div>
 </article>
 
 <!-- CHEAPER COOKING -->
 <article class="view" id="v-cheaper-cooking" hidden>
+  <span class="hero-ico"><svg class="ico" aria-hidden="true"><use href="#i-pan"/></svg></span>
   <p class="eyebrow" style="margin-top:32px">Guide · Kitchen and energy</p>
   <h1>Cook for less with an air fryer or slow cooker</h1>
   <p class="lede">An electric oven heats a big empty box to cook a small meal. In Which?'s October 2026 tests, an air fryer did frozen chips for 8p against 23p in the oven. Here's how to pick the right size and skip the features you won't use.</p>
@@ -229,17 +252,18 @@ footer .wrap{display:grid;gap:6px}
 
   <h2>What to buy</h2>
   <div class="picks">
-    <div class="pick"><span class="who">One or two people</span><h3>Compact single-basket air fryer</h3><p>Enough for a student or a couple, and the cheapest way in. Which?'s tested models started at about £30, and cheaper models pay back their price faster.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-fryer"/></svg></span><span class="who">One or two people</span><h3>Compact single-basket air fryer</h3><p>Enough for a student or a couple, and the cheapest way in. Which?'s tested models started at about £30, and cheaper models pay back their price faster.</p>
       <div class="btns"><a class="btn primary" data-amz="compact air fryer 4L">Check price on Amazon</a><a class="btn" data-ebay="compact air fryer 4L">eBay</a></div></div>
-    <div class="pick"><span class="who">Feeding a family</span><h3>Dual-zone air fryer</h3><p>Two baskets, so the chips and the main finish together. TechRadar listed the Ninja AF300UK 7.6L at £129 at Amazon on 6 November 2026, against £199.99, so use that as a benchmark for Black Friday.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-fryer"/></svg></span><span class="who">Feeding a family</span><h3>Dual-zone air fryer</h3><p>Two baskets, so the chips and the main finish together. TechRadar listed the Ninja AF300UK 7.6L at £129 at Amazon on 6 November 2026, against £199.99, so use that as a benchmark for Black Friday.</p><div class="facts"><span class="fact award"><svg class="ico" aria-hidden="true"><use href="#i-award"/></svg><a href="https://www.techradar.com/reviews/ninja-foodi-dual-zone-air-fryer-af300uk-review" target="_blank" rel="noopener">TechRadar Editor's Choice: Ninja AF300UK</a></span><span class="fact price"><svg class="ico" aria-hidden="true"><use href="#i-pound"/></svg><span>Price to beat <b>£129</b> · Ninja AF300UK at Amazon (<a href="https://www.techradar.com/live/news/early-black-friday-deals-2026-uk-live" target="_blank" rel="noopener">TechRadar</a>)</span></span></div>
       <div class="btns"><a class="btn primary" data-amz="dual zone air fryer">Check price on Amazon</a><a class="btn" data-ebay="dual zone air fryer">eBay</a></div></div>
-    <div class="pick"><span class="who">Batch cooking</span><h3>6L+ slow cooker with keep-warm</h3><p>Cheap cuts and big batches for the freezer. Pick one with keep-warm and a removable pot, and a sear function if you hate washing an extra pan. Go 3.5L if it's just for one or two.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-pot"/></svg></span><span class="who">Batch cooking</span><h3>6L+ slow cooker with keep-warm</h3><p>Cheap cuts and big batches for the freezer. Pick one with keep-warm and a removable pot, and a sear function if you hate washing an extra pan. Go 3.5L if it's just for one or two.</p><div class="facts"><span class="fact price"><svg class="ico" aria-hidden="true"><use href="#i-pound"/></svg><span>Price to beat <b>£42</b> · Russell Hobbs 7L at Argos, was £69 (<a href="https://www.techradar.com/live/news/early-black-friday-deals-2026-uk-live" target="_blank" rel="noopener">TechRadar</a>)</span></span></div>
       <div class="btns"><a class="btn primary" data-amz="6.5L slow cooker keep warm">Check price on Amazon</a><a class="btn" data-ebay="6.5L slow cooker">eBay</a></div></div>
   </div>
 </article>
 
 <!-- TECH GIFTS -->
 <article class="view" id="v-tech-gifts" hidden>
+  <span class="hero-ico"><svg class="ico" aria-hidden="true"><use href="#i-gift"/></svg></span>
   <p class="eyebrow" style="margin-top:32px">Guide · Black Friday and Christmas</p>
   <h1>Useful tech gifts under £100</h1>
   <p class="lede">Black Friday is 27 November and the "deals" have already started. These are the gifts people actually use, with the one check that stops you buying the wrong version.</p>
@@ -256,21 +280,22 @@ footer .wrap{display:grid;gap:6px}
 
   <h2>What to buy</h2>
   <div class="picks">
-    <div class="pick"><span class="who">Always out of charge</span><h3>100W USB-C charger with several ports</h3><p>One plug for a laptop and a phone. Which? picks Ugreen's 100W 4-port model in its under-£30 Christmas gifts, and Ugreen's compact Nexode Air 100W launched in the UK at £39.99.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-bolt"/></svg></span><span class="who">Always out of charge</span><h3>100W USB-C charger with several ports</h3><p>One plug for a laptop and a phone. Which? picks Ugreen's 100W 4-port model in its under-£30 Christmas gifts, and Ugreen's compact Nexode Air 100W launched in the UK at £39.99.</p>
       <div class="btns"><a class="btn primary" data-amz="100W USB-C GaN charger 4 port UK plug">Check price on Amazon</a><a class="btn" data-ebay="100W USB-C GaN charger UK plug">eBay</a></div></div>
-    <div class="pick"><span class="who">Loses keys, has an iPhone</span><h3>Apple AirTag (2nd generation)</h3><p>Expert Reviews lists it at £29, or about £99 for four. No keyring in the box, so add one. The older AirTag is still on sale at similar prices, so check the listing says 2nd generation.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-tag"/></svg></span><span class="who">Loses keys, has an iPhone</span><h3>Apple AirTag (2nd generation)</h3><p>Expert Reviews lists it at £29, or about £99 for four. No keyring in the box, so add one. The older AirTag is still on sale at similar prices, so check the listing says 2nd generation.</p><div class="facts"><span class="fact award"><svg class="ico" aria-hidden="true"><use href="#i-award"/></svg><a href="https://www.expertreviews.co.uk/technology/accessories/apple-airtag-2nd-gen-review" target="_blank" rel="noopener">Expert Reviews Best Buy</a></span></div>
       <div class="btns"><a class="btn primary" data-amz="Apple AirTag 2nd generation">Check price on Amazon</a><a class="btn" data-ebay="Apple AirTag 2nd generation">eBay</a></div></div>
-    <div class="pick"><span class="who">Loses keys, has an Android</span><h3>Find Hub tracker tag</h3><p>Tags that use Google's Find Hub network. Google lists its own Pixel Tag as coming in November 2026 at £29, or £99 for four, and it needs Android 9 or later. Some features need a recent phone.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-tag"/></svg></span><span class="who">Loses keys, has an Android</span><h3>Find Hub tracker tag</h3><p>Tags that use Google's Find Hub network. Google lists its own Pixel Tag as coming in November 2026 at £29, or £99 for four, and it needs Android 9 or later. Some features need a recent phone.</p>
       <div class="btns"><a class="btn primary" data-amz="Google Find Hub tracker tag">Check price on Amazon</a><a class="btn" data-ebay="Google Find Hub tracker tag">eBay</a></div></div>
-    <div class="pick"><span class="who">Noisy flat or shared office</span><h3>Noise-cancelling headphones under £100</h3><p>Sony's WH-CH720N is What Hi-Fi?'s budget pick, with a £99 list price and £68 at Amazon in March 2026, so use those as your benchmark. There's no carry case and they don't fold. Prefer earbuds? Which? lists Anker's Liberty 4NC as typically under £100.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-headphones"/></svg></span><span class="who">Noisy flat or shared office</span><h3>Noise-cancelling headphones under £100</h3><p>Sony's WH-CH720N is What Hi-Fi?'s budget pick, with a £99 list price and £68 at Amazon in March 2026, so use those as your benchmark. There's no carry case and they don't fold. Prefer earbuds? Which? lists Anker's Liberty 4NC as typically under £100.</p><div class="facts"><span class="fact award"><svg class="ico" aria-hidden="true"><use href="#i-award"/></svg><a href="https://whathifi.com/reviews/sony-wh-ch720n" target="_blank" rel="noopener">What Hi-Fi? Awards 2025 winner: Sony WH-CH720N</a></span></div>
       <div class="btns"><a class="btn primary" data-amz="Sony WH-CH720N noise cancelling headphones">Check price on Amazon</a><a class="btn" data-ebay="Sony WH-CH720N">eBay</a></div></div>
-    <div class="pick"><span class="who">Reads in bed</span><h3>Kindle Paperwhite Signature Edition</h3><p>Expert Reviews says it shares the standard Paperwhite's 7in glare-free screen and IPX8 waterproofing, and adds 32GB, wireless charging and auto-brightness, which it calls the main reason to pay more. TechRadar listed it at £139.99 at Amazon on 13 November 2026; Which? puts its six-month low at £137, so that is close to the floor. On a tighter budget, the standard Paperwhite reads the same.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-book"/></svg></span><span class="who">Reads in bed</span><h3>Kindle Paperwhite Signature Edition</h3><p>Expert Reviews says it shares the standard Paperwhite's 7in glare-free screen and IPX8 waterproofing, and adds 32GB, wireless charging and auto-brightness, which it calls the main reason to pay more. TechRadar listed it at £139.99 at Amazon on 13 November 2026; Which? puts its six-month low at £137, so that is close to the floor. On a tighter budget, the standard Paperwhite reads the same.</p><div class="facts"><span class="fact price"><svg class="ico" aria-hidden="true"><use href="#i-pound"/></svg><span>Price to beat <b>£137</b> · six-month low (<a href="https://www.which.co.uk/news/article/best-black-friday-smart-home-deals-ajokx0t8yyI2" target="_blank" rel="noopener">Which?</a>)</span></span></div>
       <div class="btns"><a class="btn primary" data-amz="Kindle Paperwhite Signature Edition">Check price on Amazon</a><a class="btn" data-ebay="Kindle Paperwhite Signature Edition">eBay</a></div></div>
   </div>
 </article>
 
 <!-- DOORBELLS -->
 <article class="view" id="v-doorbells" hidden>
+  <span class="hero-ico"><svg class="ico" aria-hidden="true"><use href="#i-bell"/></svg></span>
   <p class="eyebrow" style="margin-top:32px">Guide · Home security</p>
   <h1>Video doorbells and cameras without the hidden costs</h1>
   <p class="lede">Christmas means more parcels on the doorstep and darker evenings. The price on the box is only part of the cost: many doorbells won't save any video until you pay a subscription.</p>
@@ -288,11 +313,11 @@ footer .wrap{display:grid;gap:6px}
 
   <h2>What to buy</h2>
   <div class="picks">
-    <div class="pick"><span class="who">No monthly fee</span><h3>Video doorbell with local storage</h3><p>Clips save to a base station or memory card at home, so there's no subscription to keep up. Which? notes Eufy's Video Doorbell Dual stores clips on the base station; its six-month low for the Dual S330 is £109, against an average of £148.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-bell"/></svg></span><span class="who">No monthly fee</span><h3>Video doorbell with local storage</h3><p>Clips save to a base station or memory card at home, so there's no subscription to keep up. Which? notes Eufy's Video Doorbell Dual stores clips on the base station; its six-month low for the Dual S330 is £109, against an average of £148.</p><div class="facts"><span class="fact price"><svg class="ico" aria-hidden="true"><use href="#i-pound"/></svg><span>Price to beat <b>£109</b> · Eufy Video Doorbell Dual S330, six-month low (<a href="https://www.which.co.uk/news/article/best-black-friday-smart-home-deals-ajokx0t8yyI2" target="_blank" rel="noopener">Which?</a>)</span></span></div>
       <div class="btns"><a class="btn primary" data-amz="video doorbell local storage no subscription">Check price on Amazon</a><a class="btn" data-ebay="video doorbell local storage">eBay</a></div></div>
-    <div class="pick"><span class="who">Cheapest way in</span><h3>Battery doorbell and outdoor camera bundle</h3><p>TechRadar listed Ring's Battery Video Doorbell and Outdoor Camera bundle at £54.99 at Amazon on 13 November 2026, against £159.98. Ring needs a subscription to save video, so add the yearly plan before you compare it with a local-storage model.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-camera"/></svg></span><span class="who">Cheapest way in</span><h3>Battery doorbell and outdoor camera bundle</h3><p>TechRadar listed Ring's Battery Video Doorbell and Outdoor Camera bundle at £54.99 at Amazon on 13 November 2026, against £159.98. Ring needs a subscription to save video, so add the yearly plan before you compare it with a local-storage model.</p><div class="facts"><span class="fact price"><svg class="ico" aria-hidden="true"><use href="#i-pound"/></svg><span>Price to beat <b>£54.99</b> · Ring bundle at Amazon, was £159.98 (<a href="https://www.techradar.com/live/news/early-black-friday-deals-2026-uk-live" target="_blank" rel="noopener">TechRadar</a>)</span></span></div>
       <div class="btns"><a class="btn primary" data-amz="Ring Battery Video Doorbell Outdoor Camera bundle">Check price on Amazon</a><a class="btn" data-ebay="Ring battery video doorbell outdoor camera">eBay</a></div></div>
-    <div class="pick"><span class="who">Driveway or back garden</span><h3>Solar-powered outdoor camera</h3><p>A solar panel tops up the battery, so you're not taking it down to charge. Which? puts the Eufy SoloCam E30's six-month low at £66, average £90, but says its update policy is unclear, so check before you buy.</p>
+    <div class="pick"><span class="pi"><svg class="ico" aria-hidden="true"><use href="#i-sun"/></svg></span><span class="who">Driveway or back garden</span><h3>Solar-powered outdoor camera</h3><p>A solar panel tops up the battery, so you're not taking it down to charge. Which? puts the Eufy SoloCam E30's six-month low at £66, average £90, but says its update policy is unclear, so check before you buy.</p><div class="facts"><span class="fact price"><svg class="ico" aria-hidden="true"><use href="#i-pound"/></svg><span>Price to beat <b>£66</b> · Eufy SoloCam E30, six-month low (<a href="https://www.which.co.uk/news/article/best-black-friday-smart-home-deals-ajokx0t8yyI2" target="_blank" rel="noopener">Which?</a>)</span></span></div>
       <div class="btns"><a class="btn primary" data-amz="solar outdoor security camera local storage">Check price on Amazon</a><a class="btn" data-ebay="solar outdoor security camera">eBay</a></div></div>
   </div>
 </article>
@@ -302,6 +327,7 @@ footer .wrap{display:grid;gap:6px}
   <h1>How we make money</h1>
   <p>Sorted Kit earns commission from some links. When you click a retailer link and buy something, the retailer may pay us a small percentage. You pay the same price.</p>
   <p>As an Amazon Associate we earn from qualifying purchases. We are also a member of the eBay Partner Network.</p>
+  <p>We don't give star ratings, because we haven't tested these products ourselves. Where a pick shows an award, it is the named publication's award for that product, linked to the review. "Price to beat" is a recent price from the named source: if the listing is well above it, it is probably not a deal.</p>
   <p>Guides are written from manufacturer specifications and published reviews. Where we have not tested a product ourselves, we do not say we have. Prices and availability change, so always check the listing before buying.</p>
 </article>
 </main>
