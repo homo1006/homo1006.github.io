@@ -1,154 +1,192 @@
 [
   {
-    "id": "sk-18",
+    "id": "sk-18-bf",
     "post_date": "2026-11-17",
-    "image_url": "https://homo1006.github.io/posts/img/sk-18.png",
-    "caption": "#ad Black Friday is 27 November, but that deal may not be a one-off.\nWhich? tracked 175 home, tech and health appliances around the 2024 sales. 83% were the same price or cheaper at least once outside the four-week sale period. Check the last six months of prices before you buy.\n#blackfridayuk #dealcheck #techdeals #moneysaving\nFull guide: link in bio.",
+    "slot": "09:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-18-bf.png",
+    "caption": "#ad Black Friday is 27 November. Is your deal really a deal?\nWhich? tracked 175 home, tech and health appliances around the 2024 sales. 83% were the same price or cheaper at least once outside the four-week sale period. Check the last six months of prices before you buy, not the \"was\" price.\n#blackfridayuk #dealcheck #techdeals #moneysaving\nFull guide: link in bio.",
     "status": "queued",
+    "original_id": "sk-18",
     "original_post_date": "2026-11-09"
   },
   {
-    "id": "sk-17",
-    "post_date": "2026-11-18",
-    "image_url": "https://homo1006.github.io/posts/img/sk-17.png",
-    "caption": "#ad Our guide to useful tech gifts under £100, plus how to check a Black Friday deal is real.\nChargers, item trackers and noise-cancelling headphones, with the one thing to check on each. We haven't tested these ourselves, so figures are credited to their source.\n#techgifts #christmasgifts #blackfridayuk #giftideas\nFull guide: link in bio.",
+    "id": "sk-01-bf",
+    "post_date": "2026-11-17",
+    "slot": "13:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-01-bf.png",
+    "caption": "#ad Laptop power bank? Check the watts, not the mAh.\nMost thin laptops need 45–65W over USB-C PD. Early Black Friday example: TechRadar listed the Inui 45W 10,000mAh power bank at £18.63 at Amazon on 13 November, down from £21.98. Prices move, so check before you buy.\n#powerbank #blackfridayuk #laptopaccessories #techdeals\nFull guide: link in bio.",
     "status": "queued",
-    "original_post_date": "2026-11-08"
-  },
-  {
-    "id": "sk-19",
-    "post_date": "2026-11-19",
-    "image_url": "https://homo1006.github.io/posts/img/sk-19.png",
-    "caption": "#ad Buying a Bluetooth tracker as a gift? Check their phone first.\nAn AirTag sets up on an iPhone or iPad, so it's the wrong gift for an Android owner. Find Hub tags are the Android route, and Google lists its Pixel Tag as coming this month.\n#bluetoothtracker #airtag #pixeltag #techgifts\nFull guide: link in bio.",
-    "status": "queued",
-    "original_post_date": "2026-11-10"
-  },
-  {
-    "id": "sk-01",
-    "post_date": "2026-11-20",
-    "image_url": "https://homo1006.github.io/posts/img/sk-01.png",
-    "caption": "#ad Buying a power bank for your laptop? Ignore the mAh. Check the watts. Most thin laptops need 45–65W over USB-C PD. Full guide: link in bio.\n#powerbank #techtips #laptop #gadgetsuk",
-    "status": "queued",
+    "original_id": "sk-01",
     "original_post_date": "2026-10-23"
   },
   {
-    "id": "sk-02",
-    "post_date": "2026-11-21",
-    "image_url": "https://homo1006.github.io/posts/img/sk-02.png",
-    "caption": "#ad Flying soon? Power banks go in hand luggage only, and airlines usually cap them at 100Wh without approval. A 20,000mAh bank is about 74Wh, so you're fine. Full guide: link in bio.\n#traveltips #powerbank #travelhacks #uktravel",
+    "id": "sk-19-bf",
+    "post_date": "2026-11-18",
+    "slot": "09:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-19-bf.png",
+    "caption": "#ad Buying a Bluetooth tracker as a gift? Check their phone first.\nAirTags set up on an iPhone or iPad. Find Hub tags are the Android route. Which? puts the Eufy SmartTrack Link's lowest price in the past six months at £10, against a £20 average, and says it works best with iPhone.\n#bluetoothtracker #airtag #techgifts #blackfridayuk\nFull guide: link in bio.",
     "status": "queued",
-    "original_post_date": "2026-10-24"
+    "original_id": "sk-19",
+    "original_post_date": "2026-11-10"
   },
   {
-    "id": "sk-03",
-    "post_date": "2026-11-22",
-    "image_url": "https://homo1006.github.io/posts/img/sk-03.png",
-    "caption": "#ad Three power banks for three jobs. Phone: slim 10,000mAh with 20W. Laptop: 20,000mAh with 65W. iPhone: Qi2 magnetic. Picks in our guide, link in bio.\n#powerbank #iphone #techuk #gadgets",
+    "id": "sk-10-bf",
+    "post_date": "2026-11-18",
+    "slot": "13:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-10-bf.png",
+    "caption": "#ad Heat yourself, not the whole house: a heated throw costs about 2p–3p an hour.\nThat's Which?'s estimate, against 8p–76p for an electric heater. Black Friday price to beat: Which? puts the Dreamland Snuggle Up heated throw's six-month low at £47, against a £58 average. Look for an auto-off timer.\n#heatedthrow #energybills #blackfridayuk #winterwarmth\nFull guide: link in bio.",
     "status": "queued",
-    "original_post_date": "2026-10-25"
-  },
-  {
-    "id": "sk-04",
-    "post_date": "2026-11-23",
-    "image_url": "https://homo1006.github.io/posts/img/sk-04.png",
-    "caption": "#ad Want to know what your tumble dryer actually costs to run? An energy-monitoring smart plug shows the kWh. Multiply by your unit rate on your energy bill. Done. Link in bio.\n#energybills #costofliving #smarthome #moneysavinguk",
-    "status": "queued",
-    "original_post_date": "2026-10-26"
-  },
-  {
-    "id": "sk-05",
-    "post_date": "2026-11-24",
-    "image_url": "https://homo1006.github.io/posts/img/sk-05.png",
-    "caption": "#ad Before you buy a smart plug for a heater or kettle, check it's rated for a full 13A. Our checklist is in the guide, link in bio.\n#smartplug #smarthomeuk #homehacks",
-    "status": "queued",
-    "original_post_date": "2026-10-27"
-  },
-  {
-    "id": "sk-06",
-    "post_date": "2026-11-25",
-    "image_url": "https://homo1006.github.io/posts/img/sk-06.png",
-    "caption": "#ad Mixed household of Alexa, Google and iPhones? Matter-certified smart plugs work with all three. Guide in bio.\n#alexa #googlehome #applehome #smarthome",
-    "status": "queued",
-    "original_post_date": "2026-10-28"
-  },
-  {
-    "id": "sk-07",
-    "post_date": "2026-11-26",
-    "image_url": "https://homo1006.github.io/posts/img/sk-07.png",
-    "caption": "#ad Working off a laptop on the sofa? Raise the screen to eye level with a laptop stand and add any external keyboard. Your neck will notice by Friday. Link in bio.\n#wfh #desksetup #homeoffice #studentlife",
-    "status": "queued",
-    "original_post_date": "2026-10-29"
-  },
-  {
-    "id": "sk-08",
-    "post_date": "2026-11-27",
-    "image_url": "https://homo1006.github.io/posts/img/sk-08.png",
-    "caption": "#ad One USB-C cable for monitor, charging and USB. Get a hub with HDMI and 100W pass-through. Check it supports your monitor's resolution first. Link in bio.\n#desksetup #usbc #homeoffice #techtips",
-    "status": "queued",
-    "original_post_date": "2026-10-30"
-  },
-  {
-    "id": "sk-09",
-    "post_date": "2026-11-28",
-    "image_url": "https://homo1006.github.io/posts/img/sk-09.png",
-    "caption": "#ad A better desk for under £100: laptop stand, USB-C hub, dimmable LED lamp, cable tray. Full list in bio.\n#desksetup #wfhsetup #studentdesk #homeofficeuk",
-    "status": "queued",
-    "original_post_date": "2026-10-31"
-  },
-  {
-    "id": "sk-10",
-    "post_date": "2026-11-29",
-    "image_url": "https://homo1006.github.io/posts/img/sk-10.png",
-    "caption": "#ad The energy price cap rose 4% in October. One cheap fix: heat yourself, not the whole house. Which? estimates a heated throw costs about 2p–3p an hour to run, against 8p–76p for an electric heater. Look for an auto-off timer and a washable cover.\n#heatedthrow #energybills #winterwarmth #costofliving\nFull guide: link in bio.",
-    "status": "queued",
+    "original_id": "sk-10",
     "original_post_date": "2026-11-01"
   },
   {
-    "id": "sk-11",
-    "post_date": "2026-11-30",
-    "image_url": "https://homo1006.github.io/posts/img/sk-11.png",
-    "caption": "#ad Buying a dehumidifier? The number that matters is litres per day extracted, not tank size. 7–12L suits a small flat with mild damp, 14–16L a bigger household, 18L+ if you dry clothes indoors. Add a humidistat so it isn't running for nothing.\n#dehumidifier #condensation #dampandmould #rentersuk\nFull guide: link in bio.",
+    "id": "sk-17-bf",
+    "post_date": "2026-11-19",
+    "slot": "09:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-17-bf.png",
+    "caption": "#ad Black Friday gift list: useful tech under £100.\nChargers, trackers, noise-cancelling headphones and e-readers, with the one thing to check on each. Price to beat: Which? puts the Soundcore Liberty 5 earbuds' six-month low at £55, against an £87 average. We haven't tested these ourselves.\n#techgifts #christmasgifts #blackfridayuk #giftideas\nFull guide: link in bio.",
     "status": "queued",
+    "original_id": "sk-17",
+    "original_post_date": "2026-11-08"
+  },
+  {
+    "id": "sk-11-bf",
+    "post_date": "2026-11-19",
+    "slot": "13:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-11-bf.png",
+    "caption": "#ad Buying a dehumidifier? Look at litres per day, not tank size.\n7–12L a day suits a small flat; go 18L+ if you dry laundry indoors. Which? lists the Devola DV12L and Ecoair DC12 MK3 at £106, their lowest price, against a £133 average. Prices move, so check first.\n#dehumidifier #dampandmould #blackfridayuk #winterwarmth\nFull guide: link in bio.",
+    "status": "queued",
+    "original_id": "sk-11",
     "original_post_date": "2026-11-02"
   },
   {
-    "id": "sk-12",
-    "post_date": "2026-12-01",
-    "image_url": "https://homo1006.github.io/posts/img/sk-12.png",
-    "caption": "#ad Quick maths for any appliance this winter: watts ÷ 1000 × hours × your unit rate. Under the October–December 2026 price cap that rate is about 26.32p per kWh, so a 100W heated throw costs about 2.6p an hour. Check the rate on your own bill.\n#energybills #moneysavinguk #costofliving #energysaving\nFull guide: link in bio.",
+    "id": "sk-02-bf",
+    "post_date": "2026-11-20",
+    "slot": "09:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-02-bf.png",
+    "caption": "#ad Flying this Christmas? Power banks go in hand luggage only.\nAirlines usually allow up to 100Wh without approval. A 10,000mAh bank is about 37Wh. Price to beat: Which? puts the INIU BI-B6's six-month low at £12.72, against £17.34 on average, and calls it among the lightest it tested.\n#powerbank #travelhacks #blackfridayuk #techdeals\nFull guide: link in bio.",
     "status": "queued",
-    "original_post_date": "2026-11-03"
+    "original_id": "sk-02",
+    "original_post_date": "2026-10-24"
   },
   {
-    "id": "sk-13",
-    "post_date": "2026-12-02",
-    "image_url": "https://homo1006.github.io/posts/img/sk-13.png",
-    "caption": "#ad Smart radiator valves let you heat the rooms you use and turn the spare room down. Before buying: they swap onto existing thermostatic valves (TRVs), most need the same brand's bridge, and savings are smaller in small homes. Which? puts single valves at about £35–£80.\n#smarthome #smartheating #radiator #energybills\nFull guide: link in bio.",
+    "id": "sk-04-bf",
+    "post_date": "2026-11-20",
+    "slot": "13:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-04-bf.png",
+    "caption": "#ad What does your tumble dryer actually cost to run? A smart plug with energy monitoring shows you.\nPrice to beat: last Black Friday, TechRadar spotted the Tapo P110 two-pack at £14.29 at Amazon, down from £23.99. If it's well above that this year, wait.\n#smartplug #energybills #blackfridayuk #smarthomeuk\nFull guide: link in bio.",
     "status": "queued",
-    "original_post_date": "2026-11-04"
+    "original_id": "sk-04",
+    "original_post_date": "2026-10-26"
   },
   {
-    "id": "sk-14",
-    "post_date": "2026-12-03",
-    "image_url": "https://homo1006.github.io/posts/img/sk-14.png",
-    "caption": "#ad Getting the electric blanket out of the cupboard? Check it before you use it. Replace it if the fabric is worn or you can see wires. Unplug it before you sleep unless it has a thermostat designed for safe overnight use. A timer helps too.\n#electricblanket #homesafety #winterwarmth #ukhome\nFull guide: link in bio.",
+    "id": "sk-14-bf",
+    "post_date": "2026-11-21",
+    "slot": "09:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-14-bf.png",
+    "caption": "#ad Getting the electric blanket out? Check it before you switch it on.\nReplace it if the fabric is worn or wires show. Need a new one? Which? puts the Russell Hobbs RHEDB8002 dual-control underblanket's six-month low at £43, against £72 on average. It has no programmable timer.\n#electricblanket #winterwarmth #blackfridayuk #energybills\nFull guide: link in bio.",
     "status": "queued",
+    "original_id": "sk-14",
     "original_post_date": "2026-11-05"
   },
   {
-    "id": "sk-15",
-    "post_date": "2026-12-04",
-    "image_url": "https://homo1006.github.io/posts/img/sk-15.png",
-    "caption": "#ad Most UK dehumidifiers are compressor models, and they struggle in cold spaces. For an unheated garage, conservatory or outbuilding, Which? suggests a desiccant model instead. Heated bedrooms and flats? Compressor is fine and usually cheaper to run.\n#dehumidifier #dampandmould #garage #winterprep\nFull guide: link in bio.",
+    "id": "sk-16-bf",
+    "post_date": "2026-11-21",
+    "slot": "13:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-16-bf.png",
+    "caption": "#ad Our winter guide: stay warm and dry for less.\nNo tumble dryer? Which? found heated airers average about 8p an hour. Price to beat: it puts the Dry:Soon Mini three-tier's six-month low at £104, against a £137 average. Plus heated throws, dehumidifiers and smart radiator valves.\n#heatedairer #winterwarmth #blackfridayuk #energybills\nFull guide: link in bio.",
     "status": "queued",
+    "original_id": "sk-16",
+    "original_post_date": "2026-11-07"
+  },
+  {
+    "id": "sk-03-bf",
+    "post_date": "2026-11-22",
+    "slot": "09:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-03-bf.png",
+    "caption": "#ad Three power banks for three jobs. Buy for the job, not the biggest number.\nPhone: a slim 10,000mAh with 20W+ USB-C. Laptop: 20,000mAh with 65W USB-C PD on a single port. iPhone 12 or later: a Qi2 magnetic bank. Black Friday prices move daily, so check the listing before you buy.\n#powerbank #blackfridayuk #techdeals #iphone\nFull guide: link in bio.",
+    "status": "queued",
+    "original_id": "sk-03",
+    "original_post_date": "2026-10-25"
+  },
+  {
+    "id": "sk-15-bf",
+    "post_date": "2026-11-22",
+    "slot": "13:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-15-bf.png",
+    "caption": "#ad Damp garage or conservatory? Most UK dehumidifiers struggle in the cold.\nCompressor models are the norm, but a desiccant model copes better in unheated spaces. Which? puts the Ecoair DD1 Classic MK6's six-month low at £189, against £209 on average, so anything near £189 is a fair price.\n#dehumidifier #garage #blackfridayuk #dampandmould\nFull guide: link in bio.",
+    "status": "queued",
+    "original_id": "sk-15",
     "original_post_date": "2026-11-06"
   },
   {
-    "id": "sk-16",
-    "post_date": "2026-12-05",
-    "image_url": "https://homo1006.github.io/posts/img/sk-16.png",
-    "caption": "#ad Our winter guide: three ways to stay warm and dry for less. Heated throws and underblankets, dehumidifiers sized for your home, and smart radiator valves for the rooms you actually use. Running costs explained in plain English.\n#winterwarmth #energybills #heatedthrow #dehumidifier\nFull guide: link in bio.",
+    "id": "sk-05-bf",
+    "post_date": "2026-11-23",
+    "slot": "09:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-05-bf.png",
+    "caption": "#ad Putting a heater or kettle on a smart plug? Check it's rated for a full 13A.\nThat's 3,120W at UK mains. Plugs rated lower can't safely run high-power appliances. If you're buying in the Black Friday sales, check the rating on the listing, not just the price.\n#smartplug #smarthomeuk #blackfridayuk #homehacks\nFull guide: link in bio.",
     "status": "queued",
-    "original_post_date": "2026-11-07"
+    "original_id": "sk-05",
+    "original_post_date": "2026-10-27"
+  },
+  {
+    "id": "sk-06-bf",
+    "post_date": "2026-11-23",
+    "slot": "13:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-06-bf.png",
+    "caption": "#ad Alexa, Google and iPhones in one house? Buy Matter smart plugs.\nMatter-certified plugs work with Alexa, Google Home and Apple Home, so you aren't locked into one app. Look for the Matter logo before you add a Black Friday deal to your basket.\n#smartplug #matter #smarthomeuk #blackfridayuk\nFull guide: link in bio.",
+    "status": "queued",
+    "original_id": "sk-06",
+    "original_post_date": "2026-10-28"
+  },
+  {
+    "id": "sk-07-bf",
+    "post_date": "2026-11-24",
+    "slot": "09:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-07-bf.png",
+    "caption": "#ad Laptop on the sofa? Raise the screen to eye level first.\nAn adjustable laptop stand plus any external keyboard and mouse fixes most of what feels wrong about working off a laptop. Both are common Black Friday buys, so set a budget before you browse.\n#desksetup #wfh #blackfridayuk #studentlife\nFull guide: link in bio.",
+    "status": "queued",
+    "original_id": "sk-07",
+    "original_post_date": "2026-10-29"
+  },
+  {
+    "id": "sk-12-bf",
+    "post_date": "2026-11-24",
+    "slot": "13:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-12-bf.png",
+    "caption": "#ad Before you buy anything that plugs in, work out what it costs to run.\nWatts ÷ 1000 × hours × your unit rate. Under the October–December 2026 price cap that's about 26.32p per kWh, so a 100W heated throw costs about 2.6p an hour. Check the rate on your own bill.\n#energybills #moneysavinguk #blackfridayuk #costofliving\nFull guide: link in bio.",
+    "status": "queued",
+    "original_id": "sk-12",
+    "original_post_date": "2026-11-03"
+  },
+  {
+    "id": "sk-08-bf",
+    "post_date": "2026-11-25",
+    "slot": "09:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-08-bf.png",
+    "caption": "#ad One cable for your monitor, charging and USB.\nGet a USB-C hub with HDMI and 100W pass-through charging. Check it supports your monitor's resolution and refresh rate before you buy a Black Friday deal.\n#desksetup #usbc #blackfridayuk #homeoffice\nFull guide: link in bio.",
+    "status": "queued",
+    "original_id": "sk-08",
+    "original_post_date": "2026-10-30"
+  },
+  {
+    "id": "sk-13-bf",
+    "post_date": "2026-11-25",
+    "slot": "13:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-13-bf.png",
+    "caption": "#ad Heat only the rooms you use with smart radiator valves.\nThey swap onto existing thermostatic valves (TRVs), and most need the same brand's bridge. Which? puts single valves at about £35–£80, and savings are smaller in small homes. Compare kits if you shop the Black Friday sales.\n#smartheating #energybills #blackfridayuk #smarthomeuk\nFull guide: link in bio.",
+    "status": "queued",
+    "original_id": "sk-13",
+    "original_post_date": "2026-11-04"
+  },
+  {
+    "id": "sk-09-bf",
+    "post_date": "2026-11-26",
+    "slot": "09:00",
+    "image_url": "https://homo1006.github.io/posts/img/sk-09-bf.png",
+    "caption": "#ad A better desk for under £100: four buys to watch this Black Friday.\nAn adjustable laptop stand, a USB-C hub with HDMI and 100W pass-through, a dimmable LED lamp and an under-desk cable tray. Compare each with its recent price history, not the 'was' figure.\n#desksetup #wfhsetup #blackfridayuk #homeofficeuk\nFull guide: link in bio.",
+    "status": "queued",
+    "original_id": "sk-09",
+    "original_post_date": "2026-10-31"
   }
 ]
