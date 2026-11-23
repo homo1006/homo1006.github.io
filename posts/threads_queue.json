@@ -100,5 +100,47 @@
     "post_date": "2026-11-28",
     "text": "What's the one gadget you're waiting for Black Friday to buy?\nTell me and I'll tell you the spec to check first.",
     "status": "queued"
+  },
+  {
+    "id": "th-43",
+    "post_date": "2026-11-29",
+    "text": "Ad. Fire TV Stick 4K Select: TechRadar listed it at £21.99 at Amazon on 19 November, against £64.99. The 4K Max was £46.99.\nCheck your TV has a spare HDMI port first.\nGuide: https://homo1006.github.io/#tech-gifts",
+    "status": "queued"
+  },
+  {
+    "id": "th-44",
+    "post_date": "2026-11-30",
+    "text": "Cyber Monday tip: ignore the \"was\" price.\nWhich? found 83% of the appliances it tracked around the 2024 sales were the same price or cheaper at least once outside the Black Friday period. Check the six-month price history instead.",
+    "status": "queued"
+  },
+  {
+    "id": "th-45",
+    "post_date": "2026-12-01",
+    "text": "What's the worst \"deal\" you've fallen for on Black Friday?\nThe one that turned out cheaper in January counts.",
+    "status": "queued"
+  },
+  {
+    "id": "th-46",
+    "post_date": "2026-12-02",
+    "text": "Ad. Stocking filler idea: the UGREEN Nexode 30W charger. Which? picks it in its 2026 Christmas gifts and says it's often a little over £10.\nNo cable in the box, so add one.\nGuide: https://homo1006.github.io/#tech-gifts",
+    "status": "queued"
+  },
+  {
+    "id": "th-47",
+    "post_date": "2026-12-03",
+    "text": "Ad. Flying for Christmas? Which?'s pick, the MyTravelPal Travel Adaptor, has a 10A socket, USB-C and two USB-A ports, for over 150 countries.\nAn adaptor doesn't change voltage, so check your hairdryer says 100–240V.\nGuide: https://homo1006.github.io/#tech-gifts",
+    "status": "queued"
+  },
+  {
+    "id": "th-48",
+    "post_date": "2026-12-04",
+    "text": "Buying gifts online this early? Non-faulty online orders can normally go back within 14 days of delivery.\nBuy now and that window may close before Christmas Day. Check the retailer's Christmas returns policy.",
+    "status": "queued"
+  },
+  {
+    "id": "th-49",
+    "post_date": "2026-12-05",
+    "text": "Which gadget did you get as a gift and actually still use every day?\nTrying to work out what's worth recommending this year.",
+    "status": "queued"
   }
 ]
